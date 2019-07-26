@@ -1,0 +1,12 @@
+git config --global user.name " "
+git config --global user.email " "
+git init
+git remote add origin 地址
+git clone
+git add .
+git commit -m " "
+git push origin master(正常提交)
+git push origin master -f (强制提交)
+git branch -a(查看所有分支)
+git checkout +分支名称（切换到某一分支）
+git merge 原分支 目标分支（合并分支）
