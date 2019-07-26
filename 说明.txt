@@ -1,4 +1,4 @@
-git config --global user.name " "
+﻿git config --global user.name " "
 git config --global user.email " "
 git init
 git remote add origin 地址
@@ -40,7 +40,11 @@ git merge 原分支 目标分支（合并分支）
 　　git remote     //查看远程库的信息
 　　git remote –v     //查看远程库的详细信息
 　　git push origin master      //Git会把master分支推送到远程库对应的远程分支上
-   git remote -v
-   git fetch origin master
-   git merge master
+   
+	git remote -v  //查看remote的配置
+	git remote add XXX   //添加源项目
+  	git fetch XXX		//拉取项目变更
+	git checkout master 	//切换到主分支
+	git merge XXX master 	//将源项目的修改合并到本地的主分支上
+	git remote rm XXX 	//删除新添加的项目
 
